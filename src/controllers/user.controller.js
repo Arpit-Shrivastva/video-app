@@ -314,6 +314,7 @@ const updateUserCoverImage = asyncHandler(async (req, res) => {
         throw new ApiError(400, "Cover image file is missing")
     }
 
+    
     //TODO: delete old image - assignment
 
 
